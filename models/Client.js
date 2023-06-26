@@ -16,7 +16,7 @@ const Client = sequelize.define('Client', {
 	},
 	notes: {
 		type: DataTypes.STRING,
-		allowNull: false,
+		allowNull: true,
 	},
 });
 
